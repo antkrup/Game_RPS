@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+    <button onclick="sendMove('rock')">Rock</button>
+    <button onclick="sendMove('paper')">Paper</button>
+    <button onclick="sendMove('scissors')">Scissors</button>
+    
+    <h2>Results:</h2>
+    <p>Ваш хід: <span id="player_move"></span></p>
+    <p>Хід комп'ютера: <span id="server_move"></span></p>
+    <p>Результат гри : <span id="result"></span></p>
+</body>
+</html>
